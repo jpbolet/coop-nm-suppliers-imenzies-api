@@ -1,0 +1,56 @@
+{
+  "Available": [
+    {
+      "AHack": 0,
+      "Code": "MAG",
+      "Description": "Magazines"
+    },
+    {
+      "AHack": 0,
+      "Code": "STK",
+      "Description": "Stickers"
+    }
+  ],
+  "All": [
+    {
+      "AHack": 0,
+      "Code": "CNF",
+      "Description": "Confectionery"
+    },
+    {
+      "AHack": 0,
+      "Code": "DAY",
+      "Description": "Dailies"
+    },
+    {
+      "AHack": 0,
+      "Code": "FMG",
+      "Description": "Fast moving consumer goods"
+    },
+    {
+      "AHack": 0,
+      "Code": "MAG",
+      "Description": "Magazines"
+    },
+    {
+      "AHack": 0,
+      "Code": "PAR",
+      "Description": "Part-Works"
+    },
+    {
+      "AHack": 0,
+      "Code": "STK",
+      "Description": "Stickers"
+    },
+    {
+      "AHack": 0,
+      "Code": "SUN",
+      "Description": "Sundays"
+    },
+    {
+      "AHack": 0,
+      "Code": "VOU",
+      "Description": "Vouchers"
+    }
+  ]
+}

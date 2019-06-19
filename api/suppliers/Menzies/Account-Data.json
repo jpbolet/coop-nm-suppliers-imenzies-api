@@ -1,0 +1,15 @@
+{
+  "Currency": "£",
+  "IsPhonegap": false,
+  "TrackingId": "UA-41193417-1",
+  "SessionId": "1916808372",
+  "UserId": "133485",
+  "Branch": "SOUTH EAST LONDON",
+  "Version": "3.33.0+release/3.33+2019-01-10",
+  "MultipleCode": "CWS MANCHESTER",
+  "MultipleCodeId": "764",
+  "BranchId": "340",
+  "TrackLogin": false,
+  "Role": "User",
+  "AntiForgeryToken": "RPjrU7LfAq8JiRptsFW5zHEysjSAR1ec1kPhMyE9GCyeiaZXcrcXPAiSUXtKHd2Vf6y-jFkeIaOnaXdBkZ8ydGcJqQy4N75dEjT7TFvphuo1:x88bhnmlXmPVHhRmcvBgOoDo71bmKC98WTPS6LxnYkhHsSz3Xp2RBMxpJZm-B2VMje5oEENyEqYF6fjFk3n5MNwaF2eFbiOwg9czIDo2aWc1"
+}

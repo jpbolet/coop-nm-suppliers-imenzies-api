@@ -1,0 +1,544 @@
+{
+	"info": {
+		"_postman_id": "96e83300-7e82-4cc3-9f90-5961369d081e",
+		"name": "Co-op i-Menzies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.i-menzies.com/Account/Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "Username",
+							"value": "111111",
+							"type": "text"
+						},
+						{
+							"key": "Password",
+							"value": "pa$$word",
+							"type": "text"
+						},
+						{
+							"key": "Password-clone",
+							"value": "pa$$word",
+							"type": "text"
+						},
+						{
+							"key": "X-Requested-With",
+							"value": "XMLHttpRequest",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Account/Login?Username=111111&Password=pa$$word&Password-clone=pa$$word&X-Requested-With=XMLHttpRequest",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Account",
+						"Login"
+					],
+					"query": [
+						{
+							"key": "Username",
+							"value": "111111"
+						},
+						{
+							"key": "Password",
+							"value": "pa$$word"
+						},
+						{
+							"key": "Password-clone",
+							"value": "pa$$word"
+						},
+						{
+							"key": "X-Requested-With",
+							"value": "XMLHttpRequest"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/DeliveryNotes/Save",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Id\": \"3414352388\",\n    \"lines\": [\n        {\n            \"Id\": \"cede5586-0b23-4b71-a7af-aa6f009f8e48\",\n            \"Received\": null,\n            \"Action\": \"Request Credit\"\n        },\n        {\n            \"Id\": \"3686841f-0a56-45bd-86bf-aa6f009f8e52\",\n            \"Received\": null,\n            \"Action\": \"Request Credit\"\n        },\n        {\n            \"Id\": \"280a82cc-971d-4f39-a8f0-aa6f009f8e4d\",\n            \"Received\": null,\n            \"Action\": \"Request Credit\"\n        }\n    ]\n}"
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/DeliveryNotes/Save",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"DeliveryNotes",
+						"Save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/DeliveryNotes/View/3414352388",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/DeliveryNotes/View/3414352388",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"DeliveryNotes",
+						"View",
+						"3414352388"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Account/Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Account/Data",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Account",
+						"Data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Returns/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Returns/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Returns",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Orders/Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Orders/Categories",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Orders",
+						"Categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Orders/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Orders/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Orders",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/BackOrder/All",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/BackOrder/All",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"BackOrder",
+						"All"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Allocations/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Allocations/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Allocations",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/CreditNotes/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/CreditNotes/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"CreditNotes",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Invoices/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Invoices/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Invoices",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Invoices/View/2242449397",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Cookie",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Invoices/View/2242449397",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Invoices",
+						"View",
+						"2242449397"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/DeliveryNotes/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/DeliveryNotes/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"DeliveryNotes",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Titles/View/4037",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Titles/View/4037",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Titles",
+						"View",
+						"4037"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/DeliveryNotes/View/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/DeliveryNotes/View/3414353766",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"DeliveryNotes",
+						"View",
+						"3414353766"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/FinalDeliveryNotes/List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/FinalDeliveryNotes/List",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"FinalDeliveryNotes",
+						"List"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/DeliveryNotes/Csv/3414352388",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/DeliveryNotes/Csv/3414352388",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"DeliveryNotes",
+						"Csv",
+						"3414352388"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.i-menzies.com/Files/Index/2019-06-17?type=DeliveryNote",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.i-menzies.com/Files/Index/2019-06-17?type=DeliveryNote",
+					"protocol": "https",
+					"host": [
+						"www",
+						"i-menzies",
+						"com"
+					],
+					"path": [
+						"Files",
+						"Index",
+						"2019-06-17"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "DeliveryNote"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

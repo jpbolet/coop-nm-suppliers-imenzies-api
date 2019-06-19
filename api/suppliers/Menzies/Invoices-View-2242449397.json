@@ -1,0 +1,686 @@
+{
+  "Date": "2019-06-15T00:00:00",
+  "Account": "110479",
+  "DeliveryNotes": [
+    {
+      "Charges": 0,
+      "Credits": 0,
+      "Date": "2019-06-09T00:00:00",
+      "Day": "Sun",
+      "GrossValue": 0,
+      "NetValue": 0,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 0,
+      "SubObjId": "DNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3414341553",
+      "Description": null
+    },
+    {
+      "Charges": 25.61,
+      "Credits": 0,
+      "Date": "2019-06-10T00:00:00",
+      "Day": "Mon",
+      "GrossValue": 0,
+      "NetValue": 25.61,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 34.15,
+      "SubObjId": "DNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3414342876",
+      "Description": null
+    },
+    {
+      "Charges": 129.88,
+      "Credits": 0,
+      "Date": "2019-06-11T00:00:00",
+      "Day": "Tue",
+      "GrossValue": 0,
+      "NetValue": 129.88,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 173.21,
+      "SubObjId": "DNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3414344251",
+      "Description": null
+    },
+    {
+      "Charges": 179.3,
+      "Credits": 0,
+      "Date": "2019-06-12T00:00:00",
+      "Day": "Wed",
+      "GrossValue": 0,
+      "NetValue": 178.67,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 239.08,
+      "SubObjId": "DNI",
+      "VatValue": 0.63,
+      "DeliveryNoteId": "3414345641",
+      "Description": null
+    },
+    {
+      "Charges": 194.58,
+      "Credits": 0,
+      "Date": "2019-06-13T00:00:00",
+      "Day": "Thu",
+      "GrossValue": 0,
+      "NetValue": 178.7,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 259.51,
+      "SubObjId": "DNI",
+      "VatValue": 15.88,
+      "DeliveryNoteId": "3414347072",
+      "Description": null
+    },
+    {
+      "Charges": 51.87,
+      "Credits": 0,
+      "Date": "2019-06-14T00:00:00",
+      "Day": "Fri",
+      "GrossValue": 0,
+      "NetValue": 47.01,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 69.19,
+      "SubObjId": "DNI",
+      "VatValue": 4.86,
+      "DeliveryNoteId": "3414348514",
+      "Description": null
+    },
+    {
+      "Charges": 0,
+      "Credits": 0,
+      "Date": "2019-06-15T00:00:00",
+      "Day": "Sat",
+      "GrossValue": 0,
+      "NetValue": 0,
+      "ObjId": "DNT",
+      "Percent": 0,
+      "RetailValue": 0,
+      "SubObjId": "DNF",
+      "VatValue": 0,
+      "DeliveryNoteId": "3420301650",
+      "Description": null
+    }
+  ],
+  "CreditNotes": [
+    {
+      "Charges": 0,
+      "Credits": 0,
+      "Date": "2019-06-10T00:00:00",
+      "Day": "Mon",
+      "GrossValue": 0,
+      "NetValue": 0,
+      "ObjId": "CNT",
+      "Percent": 0,
+      "RetailValue": 0,
+      "SubObjId": "CNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3433780052",
+      "Description": null
+    },
+    {
+      "Charges": 0,
+      "Credits": -75.85,
+      "Date": "2019-06-11T00:00:00",
+      "Day": "Tue",
+      "GrossValue": 0,
+      "NetValue": -75.11,
+      "ObjId": "CNT",
+      "Percent": 0,
+      "RetailValue": -101.12,
+      "SubObjId": "CNI",
+      "VatValue": -0.74,
+      "DeliveryNoteId": "3433781324",
+      "Description": null
+    },
+    {
+      "Charges": 0,
+      "Credits": -109.2,
+      "Date": "2019-06-13T00:00:00",
+      "Day": "Thu",
+      "GrossValue": 0,
+      "NetValue": -109.2,
+      "ObjId": "CNT",
+      "Percent": 0,
+      "RetailValue": -145.66,
+      "SubObjId": "CNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3433783876",
+      "Description": null
+    },
+    {
+      "Charges": 0,
+      "Credits": -62.46,
+      "Date": "2019-06-14T00:00:00",
+      "Day": "Fri",
+      "GrossValue": 0,
+      "NetValue": -62.46,
+      "ObjId": "CNT",
+      "Percent": 0,
+      "RetailValue": -83.33,
+      "SubObjId": "CNI",
+      "VatValue": 0,
+      "DeliveryNoteId": "3433785192",
+      "Description": null
+    },
+    {
+      "Charges": 0,
+      "Credits": -67.74,
+      "Date": "2019-06-15T00:00:00",
+      "Day": "Sat",
+      "GrossValue": 0,
+      "NetValue": -66.66,
+      "ObjId": "CNT",
+      "Percent": 0,
+      "RetailValue": -90.32,
+      "SubObjId": "CNI",
+      "VatValue": -1.08,
+      "DeliveryNoteId": "3433786476",
+      "Description": null
+    }
+  ],
+  "Sundries": [
+    {
+      "Description": "Base Carriage Service",
+      "NetValue": 0,
+      "VatValue": 0,
+      "Charges": 0,
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Base Carriage Service",
+      "NetValue": 0,
+      "VatValue": 0,
+      "Charges": 0,
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Carriage service (zero rate) charge",
+      "NetValue": 9.6,
+      "VatValue": 0,
+      "Charges": 9.6,
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Carriage service (STD) charge",
+      "NetValue": 2.26,
+      "VatValue": 0.45,
+      "Charges": 2.71,
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Sundries Total",
+      "NetValue": 11.86,
+      "VatValue": 0.45,
+      "Charges": 12.31,
+      "IsSummaryLine": true
+    }
+  ],
+  "PartTotals": [
+    {
+      "Charges": 0,
+      "Credits": 0,
+      "Date": "2019-06-17T09:57:24",
+      "Day": "",
+      "GrossValue": 265.99,
+      "NetValue": 246.44,
+      "ObjId": "ITT",
+      "Percent": 0,
+      "RetailValue": 354.71,
+      "SubObjId": "GT0",
+      "VatValue": 19.55,
+      "DeliveryNoteId": "",
+      "Description": null
+    }
+  ],
+  "Totals": [
+    {
+      "Charges": 0,
+      "Credits": 0,
+      "Date": "2019-06-17T09:57:24",
+      "Day": "",
+      "GrossValue": 278.3,
+      "NetValue": 258.3,
+      "ObjId": "ITO",
+      "Percent": 0,
+      "RetailValue": 354.71,
+      "SubObjId": "GT1",
+      "VatValue": 20,
+      "DeliveryNoteId": "",
+      "Description": null
+    }
+  ],
+  "Summaries": [
+    {
+      "Description": "News & Daily Collection Periodicals",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "NEW",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Magazines",
+      "InvoiceLine": {
+        "Charges": 581.24,
+        "Credits": -315.25,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 265.99,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 354.71,
+        "SubObjId": "MAG",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Subtotal (magazines + news)",
+      "InvoiceLine": {
+        "Charges": 581.24,
+        "Credits": -315.25,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 265.99,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 354.71,
+        "SubObjId": "ST5",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Adjustments",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "ST6",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Total (magazines + news + adjustments)",
+      "InvoiceLine": {
+        "Charges": 581.24,
+        "Credits": -315.25,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 265.99,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 354.71,
+        "SubObjId": "ST7",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": true
+    },
+    {
+      "Description": "Levies",
+      "InvoiceLine": {
+        "Charges": 12.31,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 12.31,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "SLE",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "MSV Charges",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "SME",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Vouchers",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "SVO",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Other items",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "OTH",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Subtotal (sundries)",
+      "InvoiceLine": {
+        "Charges": 12.31,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 12.31,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "ST8",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Invoice summary total",
+      "InvoiceLine": {
+        "Charges": 593.55,
+        "Credits": -315.25,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 0,
+        "NetValue": 278.3,
+        "ObjId": "ISU",
+        "Percent": 0,
+        "RetailValue": 354.71,
+        "SubObjId": "GT2",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": true
+    }
+  ],
+  "CarriageCharges": [
+    {
+      "Description": "Total charges exclusive of VAT",
+      "InvoiceLine": {
+        "Charges": 559.87,
+        "Credits": 0,
+        "Date": "0001-01-01T00:00:00",
+        "Day": null,
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": null,
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": null,
+        "VatValue": 0,
+        "DeliveryNoteId": null,
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Total VATable charges",
+      "InvoiceLine": {
+        "Charges": 106.87,
+        "Credits": 0,
+        "Date": "0001-01-01T00:00:00",
+        "Day": null,
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": null,
+        "Percent": 19.09,
+        "RetailValue": 0,
+        "SubObjId": null,
+        "VatValue": 0,
+        "DeliveryNoteId": null,
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Carriage service charge",
+      "InvoiceLine": {
+        "Charges": 11.86,
+        "Credits": 0,
+        "Date": "0001-01-01T00:00:00",
+        "Day": null,
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": null,
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": null,
+        "VatValue": 0,
+        "DeliveryNoteId": null,
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "VATable carriage service amount",
+      "InvoiceLine": {
+        "Charges": 2.26,
+        "Credits": 0,
+        "Date": "0001-01-01T00:00:00",
+        "Day": null,
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": null,
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": null,
+        "VatValue": 0,
+        "DeliveryNoteId": null,
+        "Description": null
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "CSC VAT value",
+      "InvoiceLine": {
+        "Charges": 0.45,
+        "Credits": 0,
+        "Date": "0001-01-01T00:00:00",
+        "Day": null,
+        "GrossValue": 0,
+        "NetValue": 0,
+        "ObjId": null,
+        "Percent": 0.45,
+        "RetailValue": 0,
+        "SubObjId": null,
+        "VatValue": 0,
+        "DeliveryNoteId": null,
+        "Description": null
+      },
+      "IsSummaryLine": false
+    }
+  ],
+  "DeferredCharges": [],
+  "VatSummaryGoodsForResale": [
+    {
+      "Description": "Zero Rate",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 148.69,
+        "NetValue": 148.69,
+        "ObjId": "GRE",
+        "Percent": 0,
+        "RetailValue": 198.29,
+        "SubObjId": "VAT",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": "Zero Rate"
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Standard Rate 20%",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 117.3,
+        "NetValue": 97.75,
+        "ObjId": "GRE",
+        "Percent": 0,
+        "RetailValue": 156.42,
+        "SubObjId": "VAT",
+        "VatValue": 19.55,
+        "DeliveryNoteId": "",
+        "Description": "Standard Rate 20%"
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Total (VAT summary)",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 265.99,
+        "NetValue": 246.44,
+        "ObjId": "GRE",
+        "Percent": 0,
+        "RetailValue": 354.71,
+        "SubObjId": "ST9",
+        "VatValue": 19.55,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": true
+    }
+  ],
+  "VatSummaryOtherCharges": [
+    {
+      "Description": "Zero Rate",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 9.6,
+        "NetValue": 9.6,
+        "ObjId": "OCH",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "VAT",
+        "VatValue": 0,
+        "DeliveryNoteId": "",
+        "Description": "Zero Rate"
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Standard Rate 20%",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 2.71,
+        "NetValue": 2.26,
+        "ObjId": "OCH",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "VAT",
+        "VatValue": 0.45,
+        "DeliveryNoteId": "",
+        "Description": "Standard Rate 20%"
+      },
+      "IsSummaryLine": false
+    },
+    {
+      "Description": "Total (other summary)",
+      "InvoiceLine": {
+        "Charges": 0,
+        "Credits": 0,
+        "Date": "2019-06-17T09:57:24",
+        "Day": "",
+        "GrossValue": 12.31,
+        "NetValue": 11.86,
+        "ObjId": "OCH",
+        "Percent": 0,
+        "RetailValue": 0,
+        "SubObjId": "ST9",
+        "VatValue": 0.45,
+        "DeliveryNoteId": "",
+        "Description": null
+      },
+      "IsSummaryLine": true
+    }
+  ]
+}

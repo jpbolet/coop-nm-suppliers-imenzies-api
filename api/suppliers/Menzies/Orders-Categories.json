@@ -1,0 +1,98 @@
+[
+  {
+    "Text": "NEWSPAPERS",
+    "Value": "010"
+  },
+  {
+    "Text": "TV LISTINGS",
+    "Value": "050"
+  },
+  {
+    "Text": "WOMEN`S INTERESTS",
+    "Value": "100"
+  },
+  {
+    "Text": "COMPUTING",
+    "Value": "150"
+  },
+  {
+    "Text": "SPORT",
+    "Value": "200"
+  },
+  {
+    "Text": "LEISURE INTERESTS",
+    "Value": "250"
+  },
+  {
+    "Text": "MOTORING & MOTORCYCLING",
+    "Value": "300"
+  },
+  {
+    "Text": "MUSIC",
+    "Value": "350"
+  },
+  {
+    "Text": "CHILDREN'S MAGAZINES",
+    "Value": "400"
+  },
+  {
+    "Text": "TEENAGE MAGAZINES",
+    "Value": "420"
+  },
+  {
+    "Text": "ADULT",
+    "Value": "450"
+  },
+  {
+    "Text": "TRADE & PROFESSIONAL",
+    "Value": "500"
+  },
+  {
+    "Text": "PARTWORKS",
+    "Value": "550"
+  },
+  {
+    "Text": "PUZZLE MAGAZINES",
+    "Value": "600"
+  },
+  {
+    "Text": "MEN'S LIFESTYLE",
+    "Value": "620"
+  },
+  {
+    "Text": "NEWS & CURRENT AFFAIRS",
+    "Value": "650"
+  },
+  {
+    "Text": "BUYING & SELLING",
+    "Value": "700"
+  },
+  {
+    "Text": "COUNTRYSIDE & COUNTY",
+    "Value": "750"
+  },
+  {
+    "Text": "GENERAL INTEREST",
+    "Value": "800"
+  },
+  {
+    "Text": "HOME INTEREST",
+    "Value": "850"
+  },
+  {
+    "Text": "SPECIALS",
+    "Value": "900"
+  },
+  {
+    "Text": "FOREIGN LANGUAGE TITLES",
+    "Value": "950"
+  },
+  {
+    "Text": "MISCELLANEOUS",
+    "Value": "980"
+  },
+  {
+    "Text": "VIDEOS",
+    "Value": "990"
+  }
+]
