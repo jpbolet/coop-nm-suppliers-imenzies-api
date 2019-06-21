@@ -123,6 +123,50 @@ router.route('/DeliveryNotes/View/:id').get(function(req, res) {
   });
 });
 
+router.route('/DeliveryNotes/Csv/:id').get(function(req, res) {
+  login()
+  .then(function (response) {
+    // handle success
+    console.log(response);
+    return imenziesAxios.get("DeliveryNotes/Csv/" + req.params.id, { credentials: 'include', headers: { Cookie: response } });
+  })
+  .then(function (response) {
+    // handle success
+    console.log(req.headers);
+    console.log(response.headers);
+    res.json(response.data);
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+    res.json(error);
+  });
+});
+
+router.route('/Files/Index/:date').get(function(req, res) {
+  login()
+  .then(function (response) {
+    // handle success
+    console.log(response);
+    return imenziesAxios.get("Files/Index/" + req.params.date + "?type=DeliveryNote", { credentials: 'include', headers: { Cookie: response } });
+  })
+  .then(function (response) {
+    // handle success
+    console.log(req.headers);
+    console.log(response.headers);
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "X-Requested-With");
+    res.contentType("application/pdf");
+    res.send(response.data);
+
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+    res.json(error);
+  });
+});
+
 router.route('/FinalDeliveryNotes').get(function(req, res) {
   login()
   .then(function (response) {
