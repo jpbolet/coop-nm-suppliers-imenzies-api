@@ -2,6 +2,8 @@
 
 i-menzies data API, driven off real i-menzies website API endpoints
 
+Copy .env.sample to .env and edit the store i-menzies credentials
+
 Requires a MongoDB instance on localhost:27017
 Install Node.js
 Install npm
